@@ -16,6 +16,8 @@
 		37C6A3801ABF2BF700529046 /* CloudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A37F1ABF2BF700529046 /* CloudTestTests.m */; };
 		37C6A38C1ABF2CE200529046 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A38B1ABF2CE200529046 /* ListViewController.m */; };
 		37C6A38F1ABF2DC100529046 /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A38E1ABF2DC100529046 /* ListViewCell.m */; };
+		37C6A3921ABF378E00529046 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A3911ABF378E00529046 /* DetailViewController.m */; };
+		37C6A3971ABF3C9200529046 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A3961ABF3C9200529046 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		37C6A38B1ABF2CE200529046 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		37C6A38D1ABF2DC100529046 /* ListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
 		37C6A38E1ABF2DC100529046 /* ListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
+		37C6A3901ABF378E00529046 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		37C6A3911ABF378E00529046 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		37C6A3951ABF3C9200529046 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		37C6A3961ABF3C9200529046 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 				37C6A3701ABF2BF700529046 /* Images.xcassets */,
 				37C6A3721ABF2BF700529046 /* LaunchScreen.xib */,
 				37C6A3631ABF2BF700529046 /* Supporting Files */,
+				37C6A3951ABF3C9200529046 /* LoginViewController.h */,
+				37C6A3961ABF3C9200529046 /* LoginViewController.m */,
 			);
 			path = CloudTest;
 			sourceTree = "<group>";
@@ -133,6 +141,8 @@
 				37C6A38B1ABF2CE200529046 /* ListViewController.m */,
 				37C6A38D1ABF2DC100529046 /* ListViewCell.h */,
 				37C6A38E1ABF2DC100529046 /* ListViewCell.m */,
+				37C6A3901ABF378E00529046 /* DetailViewController.h */,
+				37C6A3911ABF378E00529046 /* DetailViewController.m */,
 			);
 			path = SyncList;
 			sourceTree = "<group>";
@@ -241,7 +251,9 @@
 				37C6A3691ABF2BF700529046 /* AppDelegate.m in Sources */,
 				37C6A38F1ABF2DC100529046 /* ListViewCell.m in Sources */,
 				37C6A38C1ABF2CE200529046 /* ListViewController.m in Sources */,
+				37C6A3971ABF3C9200529046 /* LoginViewController.m in Sources */,
 				37C6A3661ABF2BF700529046 /* main.m in Sources */,
+				37C6A3921ABF378E00529046 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +446,7 @@
 				37C6A3851ABF2BF700529046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37C6A3861ABF2BF700529046 /* Build configuration list for PBXNativeTarget "CloudTestTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +455,7 @@
 				37C6A3881ABF2BF700529046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
