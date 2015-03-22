@@ -14,6 +14,8 @@
 		37C6A3711ABF2BF700529046 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C6A3701ABF2BF700529046 /* Images.xcassets */; };
 		37C6A3741ABF2BF700529046 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C6A3721ABF2BF700529046 /* LaunchScreen.xib */; };
 		37C6A3801ABF2BF700529046 /* CloudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A37F1ABF2BF700529046 /* CloudTestTests.m */; };
+		37C6A38C1ABF2CE200529046 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A38B1ABF2CE200529046 /* ListViewController.m */; };
+		37C6A38F1ABF2DC100529046 /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C6A38E1ABF2DC100529046 /* ListViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		37C6A3791ABF2BF700529046 /* CloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C6A37E1ABF2BF700529046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37C6A37F1ABF2BF700529046 /* CloudTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudTestTests.m; sourceTree = "<group>"; };
+		37C6A38A1ABF2CE200529046 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		37C6A38B1ABF2CE200529046 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		37C6A38D1ABF2DC100529046 /* ListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
+		37C6A38E1ABF2DC100529046 /* ListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		37C6A3621ABF2BF700529046 /* CloudTest */ = {
 			isa = PBXGroup;
 			children = (
+				37C6A3891ABF2CAD00529046 /* SyncList */,
 				37C6A3671ABF2BF700529046 /* AppDelegate.h */,
 				37C6A3681ABF2BF700529046 /* AppDelegate.m */,
 				37C6A36A1ABF2BF700529046 /* ViewController.h */,
@@ -117,6 +124,17 @@
 				37C6A37E1ABF2BF700529046 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37C6A3891ABF2CAD00529046 /* SyncList */ = {
+			isa = PBXGroup;
+			children = (
+				37C6A38A1ABF2CE200529046 /* ListViewController.h */,
+				37C6A38B1ABF2CE200529046 /* ListViewController.m */,
+				37C6A38D1ABF2DC100529046 /* ListViewCell.h */,
+				37C6A38E1ABF2DC100529046 /* ListViewCell.m */,
+			);
+			path = SyncList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +239,8 @@
 			files = (
 				37C6A36C1ABF2BF700529046 /* ViewController.m in Sources */,
 				37C6A3691ABF2BF700529046 /* AppDelegate.m in Sources */,
+				37C6A38F1ABF2DC100529046 /* ListViewCell.m in Sources */,
+				37C6A38C1ABF2CE200529046 /* ListViewController.m in Sources */,
 				37C6A3661ABF2BF700529046 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
