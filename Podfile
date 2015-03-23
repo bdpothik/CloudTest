@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+pod 'AFNetworking', '~> 2.2'
+pod 'SDWebImage', '~>3.7'
+pod 'MBProgressHUD', '~> 0.9'
+pod 'UIActivityIndicator-for-SDWebImage', '~> 1.2'
